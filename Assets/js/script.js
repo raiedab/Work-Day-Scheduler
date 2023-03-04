@@ -21,7 +21,7 @@ $(document).ready(function() {
   // Update the color of each time block based on the current time
   function updateTimeBlockColors() {
     var currentHour = moment().hour();
-    $(".hour").each(function() {
+    $("#hour").each(function() {
       var hour = parseInt($(this).text());
       var description = $(this).siblings(".description");
       if (hour < currentHour) {
