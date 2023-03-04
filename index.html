@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./Assets/js/css/style.css" />
     <title>Work Day Scheduler</title>
 </head>
 
@@ -20,11 +20,69 @@
         <p id="currentDay" class="lead"></p>
     </header>
     <div class="container">
-        <!-- Timeblocks go here -->
-    </div>
+        <!-- Timeblocks  -->
+    
+        <div class="container">
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <div class="row">
+            <div class="col-md-1 hour">9AM</div>
+            <textarea class="col-md-10 description past">Add description here</textarea>
+            <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-md-1 hour">10AM</div>
+            <textarea class="col-md-10 description present">Add description here</textarea>
+            <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-md-1 hour">11AM</div>
+            <textarea class="col-md-10 description future">Add description here</textarea>
+            <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-md-1 hour">12PM</div>
+            <textarea class="col-md-10 description future">Add description here</textarea>
+            <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-md-1 hour">1PM</div>
+            <textarea class="col-md-10 description future">Add description here</textarea>
+            <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-md-1 hour">2PM</div>
+            <textarea class="col-md-10 description future">Add description here</textarea>
+            <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-md-1 hour">3PM</div>
+            <textarea class="col-md-10 description future">Add description here</textarea>
+            <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-md-1 hour">4PM</div>
+            <textarea class="col-md-10 description future">Add description here</textarea>
+            <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-md-1 hour">5PM</div>
+            <textarea class="col-md-10 description future">Add description here</textarea>
+            <button class="col-md-1 saveBtn"><i class="fas fa-save"></i></button>
+        </div>
+    
+    
+    <!-- jquery and jquery-ui -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"
+        integrity="sha256-xLD7nhI62fcsEZK2/v8LsBcb4lG7dgULkuXoXB/j91c=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"
+        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    
+    <!-- moment.js and day.js   -->
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1.10.4/dayjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    
+    <!-- script.js -->
+    <script src="Assets/js/script.js"></script>
+    
 </body>
-
 </html>
